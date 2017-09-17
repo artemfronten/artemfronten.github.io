@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/fontello.css" />
+	<link rel="stylesheet" href="css/fontello-embedded.css" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/css_index.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/js.js"></script>
+	<title>Artem_Frontend</title>	
+</head>
+
+<body>
+
+<div class="main">
+	<div class="box_black"></div>
+	<div class="wrap_main-header">
+		<div class="main-header">
+			<h1>Artem Frontend </h1>
+			<div class="main_line"></div>
+			<p>	
+				Верстка на HTML и CSS<br/>
+				Разработка сайтов под ключ
+			</p>
+		</div>
+	</div>
+	<a class="main_link" href="#portfolio">
+		<i class="icon-down"></i>
+	</a>
+</div>
+
+
+<div class="portfolio">
+	<div class="container">
+		<h2 class="section_header"><a id="portfolio"></a>Портфолио</h2>
+	
+		<div class="row">
+	
+			<div class="col-md-4">
+				<div class="portfolio-block">
+					<img src="img/portfolio/portfolio_left.jpg" alt="img" />
+					<a data-toggle="modal" data-work="work_1" href="#work">Смотреть работу</a>	
+				</div>
+			</div>
+	
+			<div class="col-md-4">
+				<div class="portfolio-block">
+					<img src="img/portfolio/portfolio_center.jpg" alt="img" />
+					<a data-toggle="modal" data-work="work_2" href="#work">Смотреть работу</a>	
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="portfolio-block">
+					<img src="img/portfolio/portfolio_right.jpg" alt="img" />
+					<a data-toggle="modal" data-work="work_3" href="#work">Смотреть работу</a>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="portfolio-block">
+					<img src="img/portfolio/exemplar.jpg" alt="img" />
+					<a data-toggle="modal" data-work="work_4" href="#work">Смотреть работу</a>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="portfolio-block">
+					<img src="img/portfolio/exemplar.jpg" alt="img" />
+					<a data-toggle="modal" data-work="work_5" href="#work">Смотреть работу</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<strong>Artem Frontend</strong>
+				<p class="w">Разработка сайтов <br/>под ключ</p>
+			</div>
+			<div class="col-lg-6">
+				<strong>Подпишитесь:</strong>
+				<p class="icon">
+					<a href="#" class="social_links"><i class="icon-vk"></i></a>
+					<a href="#" class="social_links"><i class="icon-inst"></i></a>
+					<a href="#" class="social_links"><i class="icon-twit"></i></a>
+				</p>
+			</div>
+			<div class="col-lg-3">
+				<strong>Напишите мне:</strong>
+				<a href="https://vk.com/id441977908" class="footer_link">Заказать сайт</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ///////////////////////////begin Всплывающие окна -->
+<div class="modal fade" id="work" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Описание проекта</h4>
+      </div>
+      <div class="modal-body">
+        	<!-- <div class="row">
+        		<div class="col-lg-7">
+        			<img src="img/portfolio/portfolio_left.jpg">
+        		</div>
+        		<div class="col-lg-5">
+        			<h4>Сайт Ресторана</h4>
+        			<p>Описание сайта</p>
+        			<a href="#" class="modal_my_link">Заказать сайт</a>
+        		</div>
+        	</div> -->
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+<!-- ///////////////////////////end Всплывающие окна -->
+</body>
+
+</html>
